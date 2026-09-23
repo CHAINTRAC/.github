@@ -4,7 +4,7 @@ Sentinel is an automated, zero-trust document screening and identity verificatio
 
 ---
 
-## 🏗️ The Architecture
+## The Architecture
 
 The ecosystem is built using a decoupled microservice architecture combining high-concurrency orchestration with an AI forensic vision pipeline:
 
@@ -14,7 +14,7 @@ The ecosystem is built using a decoupled microservice architecture combining hig
 
 ---
 
-## 📂 Active Repositories
+## Active Repositories
 
 - **[`ps188-backend`](https://github.com/CHAINTRAC/ps188-backend)**: Core API orchestrator written in Go (Gin Framework), managing verification rule evaluation, JWT authentication, MongoDB records, and threat blacklist lookups.
 - **[`passport-model`](https://github.com/CHAINTRAC/passport-model)**: AI & Computer Vision microservice executing OCR (EasyOCR), forensic forgery analysis (CNN + ELA), and facial biometric verification (FaceNet / PyTorch).
